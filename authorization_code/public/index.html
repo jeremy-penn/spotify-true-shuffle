@@ -39,13 +39,14 @@
         </div>
         <div class="media-body">
           <dl class="dl-horizontal">
-            <dt>Display name</dt><dd class="clearfix">{{display_name}}</dd>
-            <dt>Id</dt><dd>{{id}}</dd>
-            <dt>Email</dt><dd>{{email}}</dd>
-            <dt>Spotify URI</dt><dd><a href="{{external_urls.spotify}}">{{external_urls.spotify}}</a></dd>
-            <dt>Link</dt><dd><a href="{{href}}">{{href}}</a></dd>
-            <dt>Profile Image</dt><dd class="clearfix"><a href="{{images.0.url}}">{{images.0.url}}</a></dd>
-            <dt>Country</dt><dd>{{country}}</dd>
+            <form id="playlist-select-form">
+              <select id="playlist-drop">
+                <option>Choose a playlist to shuffle</option>
+                <button onclick="clickFunc()">
+                  Submit
+                </button>
+              </select>
+            </form>
           </dl>
         </div>
       </div>
@@ -139,4 +140,3 @@
     </script>
   </body>
 </html>
-
