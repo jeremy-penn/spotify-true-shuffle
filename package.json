@@ -1,0 +1,18 @@
+{
+  "author": "Jeremy Penn",
+  "name": "spotify-shuffle-program",
+  "description": "A shuffle program to provide true shuffle to Spotify playlists",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeremy-penn/spotify-true-shuffle.git"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
+  }
+}
