@@ -120,7 +120,7 @@ app.get('/callback', function(req, res) {
 
           // send selected playlist to Callback
           var dropdown_return = document.getElementById('playlist-drop');
-          var selected_playlist = dropdown_return.options[dropdown_return.selectedIndex].text;
+          var selected_playlist = dropdown_return.options[dropdown_return.selectedIndex].value;
           plCallback(selected_playlist);
         }
 
